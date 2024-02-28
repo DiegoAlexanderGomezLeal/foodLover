@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab';
+    background-color: gray;
+    background-image: url("storage/img/slide-1.jpg");
+    
+}
+.container{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15%;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+    margin-bottom: 10%;
+
+}
+.logo img{
+    height: 50px;
+}
+.pizquierda, .pderecha{
+    display: flex;
+}
+.menuI, .menuD{
+    margin: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.menuI:nth-child(1){
+    color: yellow
+}
+
+.menuI:hover, .menuD:hover{
+    color: #f4f4f4;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+}
+.imagen {
+    flex: 1;
+    margin-right:50px;
+}
+
+.texto {
+    flex: 1;
+    margin-left: 0px;
+}
+
+.contact-button{
+    background-color: yellow; 
+    border-radius: 5%;
+    color: black; 
+    border: none;
+    padding: 15px 30px; 
+    cursor: pointer;
+    font-size: 18px; 
+    letter-spacing: 1px; 
+    margin-top: 20px; 
+    transition: all 0.3s ease;
+}
+.contact-button:hover{
+    background-color: white; 
+}
