@@ -1,4 +1,4 @@
-@import url(style.css);
+@import url(variables.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 *{
@@ -87,7 +87,7 @@ a:hover{
     margin-left: 150px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 100px;
+    font-weight: 100;
     font-style: unset;
 }
 .titulo{
@@ -124,4 +124,188 @@ a:hover{
 .img1{
     display: flex;
     margin-left: 5%;
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: var(--color-secundary);
+    align-items: center;
+}
+.img2{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+.contenido2{
+    width: 100%;
+}
+.titulo2{
+    display: flex;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: unset;
+    margin: 2% 0;
+}
+.parrafo2{
+    display: flex;
+    color: #fff;
+    width: 60%;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: unset;
+}
+.container3{
+    width: 100%;
+    height: 200vh;
+    background: var(--color-secundary);
+    display: flex;
+}
+.contenido3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200vh;
+}
+.image1{
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.image2{
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: -299vh;
+    width: 600px;
+    height: auto; /
+}
+
+.image3{
+    position: absolute;
+    left: 0;
+    bottom: -295vh;
+}
+.image4{
+    position: absolute;
+    right: 0;
+    bottom: -180vh;
+}
+.contenido4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    padding: 0 10%;
+}
+.titulo3{
+    display: flex;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: unset;
+    margin: 2% 0;
+}
+.parrafo3{
+    display: flex;
+    color: #fff;
+    width: 700px;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: unset;
+}
+.container4{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    background: var(--color-secundary);
+    padding-left: 8%;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    background: var(--color-secundary);
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes{
+    width: 30%;
+    padding: 2%;
+}
+.titulo4{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: unset;
+    margin: 2% 0;
+}
+.encabezado2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #e58f00;
+}
+.cuerpo{
+    width: 30%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #e58f00;
+    background: var(--color-secundary);
+}
+.fondo2{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+.titulo5{
+    position: relative;
+    display: flex;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: unset;
+    margin: 2% 0;
+}
+.parrafo4{
+    position: relative;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: unset;
+    margin: 2% 0;
 }
