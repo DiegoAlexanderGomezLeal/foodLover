@@ -71,8 +71,8 @@ a{
     text-decoration: none;
 }
 a:hover{
-    transform: scale(1,2);
-    transition: 0.2s ease;
+    transform: scale(1.2);
+    transition: 0.3s;
     color:#e58f00;
 }
 .contenido{
@@ -131,7 +131,10 @@ a:hover{
     display: flex;
     background: var(--color-secundary);
     align-items: center;
+    padding-bottom: 150px;
 }
+
+
 .img2{
     display: flex;
     width: 70%;
@@ -172,31 +175,34 @@ a:hover{
     width: 100%;
     height: 200vh;
 }
-.image1{
+.imagen1{
     width: 100%;
     height: 200vh;
     position: absolute;
     display: flex;
     align-items: center;
 }
-.image2{
+.imagen2{
     position: absolute;
     display: flex;
     right: 0;
     bottom: -299vh;
     width: 600px;
-    height: auto; /
+    height: auto;
 }
-
-.image3{
+.imagen3{
+    display: flex;
     position: absolute;
     left: 0;
-    bottom: -295vh;
+    bottom: -315vh;
+    margin-right: 0px;
 }
-.image4{
+.imagen4{
+    
+    display: flex;
     position: absolute;
     right: 0;
-    bottom: -180vh;
+    bottom: -188vh;
 }
 .contenido4{
     width: 100%;
@@ -245,6 +251,10 @@ a:hover{
 .imagenes{
     width: 30%;
     padding: 2%;
+}
+.imagenes:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
 }
 .titulo4{
     display: flex;
@@ -297,7 +307,7 @@ a:hover{
     font-style: unset;
     margin: 2% 0;
 }
-.parrafo4{
+.parrafo5{
     position: relative;
     display: flex;
     width: 80%;
@@ -306,6 +316,127 @@ a:hover{
     font-family: "Roboto Slab", serif;
     font-size: 20px;
     font-weight: 900;
+    font-style: unset;
+    margin: 2% 0;
+    text-align: justify;
+}
+.container6{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    padding-top: 145px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-secundary);
+}
+.contenido6{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulobox1, .titulobox2, .titulobox3{
+    position: relative;
+    display: flex;
+    color: #e58f00;
+    font-family: "Roboto Slab", serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: unset;
+    margin: 2% 0;
+}
+.parrafobox1, .parrafobox2, .parrafobox3{
+    position: relative;
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: unset;
+    margin: 2% 0;
+}
+.preciobox1, .preciobox2, .preciobox3{
+    position: relative;
+    display: flex;
+    color: #e58f00;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: unset;
+    margin: 2% 0;
+}
+.menu-title h2 {
+    text-align: center;
+    color: #e58f00;
+    font-family: "Roboto Slab", serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.titulo6{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: unset;
+    margin: 2% 0;
+}
+.container7{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding-top: 145px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-secundary);
+}
+.contenido7_1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    align-items: center;
+    background: #e58f00;
+    z-index: 2;
+}
+.contenido7_2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    align-items: center;
+    background: #323239;
+
+}
+.titulo7{
+    position: relative;
+    display: flex;
+    color: #e58f00;
+    font-family: "Roboto Slab", serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: unset;
+    margin: 2% 0;
+}
+.parrafo7{
+    position: relative;
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 12px;
+    font-weight: 700;
     font-style: unset;
     margin: 2% 0;
 }
